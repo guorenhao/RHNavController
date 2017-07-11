@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F079FBE1F1366740095FE4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FBD1F1366740095FE4B /* main.m */; };
+		3F079FC11F1366740095FE4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FC01F1366740095FE4B /* AppDelegate.m */; };
+		3F079FC41F1366740095FE4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FC31F1366740095FE4B /* ViewController.m */; };
+		3F079FC71F1366740095FE4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F079FC51F1366740095FE4B /* Main.storyboard */; };
+		3F079FC91F1366740095FE4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F079FC81F1366740095FE4B /* Assets.xcassets */; };
+		3F079FCC1F1366740095FE4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F079FCA1F1366740095FE4B /* LaunchScreen.storyboard */; };
+		3F079FDB1F1366A80095FE4B /* RHNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FD61F1366A80095FE4B /* RHNavController.m */; };
+		3F079FDC1F1366A80095FE4B /* RHNavItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FD81F1366A80095FE4B /* RHNavItem.m */; };
+		3F079FDD1F1366A80095FE4B /* RHNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FDA1F1366A80095FE4B /* RHNavView.m */; };
+		3F079FE01F1366BA0095FE4B /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FDF1F1366BA0095FE4B /* FirstViewController.m */; };
+		3F079FE31F1366C60095FE4B /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FE21F1366C60095FE4B /* SecondViewController.m */; };
+		3F079FE61F1366CD0095FE4B /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FE51F1366CD0095FE4B /* ThirdViewController.m */; };
+		3F079FE91F1366D30095FE4B /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FE81F1366D30095FE4B /* FourthViewController.m */; };
+		3F079FEC1F1366D90095FE4B /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FEB1F1366D90095FE4B /* FifthViewController.m */; };
+		3F079FEF1F1370430095FE4B /* RHNavItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F079FEE1F1370430095FE4B /* RHNavItemModel.m */; };
+		3FB61CAB1F14989C004F7319 /* SixthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB61CAA1F14989C004F7319 /* SixthViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F079FB91F1366740095FE4B /* RHNavController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RHNavController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F079FBD1F1366740095FE4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3F079FBF1F1366740095FE4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3F079FC01F1366740095FE4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3F079FC21F1366740095FE4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3F079FC31F1366740095FE4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3F079FC61F1366740095FE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F079FC81F1366740095FE4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F079FCB1F1366740095FE4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F079FCD1F1366740095FE4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F079FD51F1366A80095FE4B /* RHNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNavController.h; sourceTree = "<group>"; };
+		3F079FD61F1366A80095FE4B /* RHNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNavController.m; sourceTree = "<group>"; };
+		3F079FD71F1366A80095FE4B /* RHNavItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNavItem.h; sourceTree = "<group>"; };
+		3F079FD81F1366A80095FE4B /* RHNavItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNavItem.m; sourceTree = "<group>"; };
+		3F079FD91F1366A80095FE4B /* RHNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNavView.h; sourceTree = "<group>"; };
+		3F079FDA1F1366A80095FE4B /* RHNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNavView.m; sourceTree = "<group>"; };
+		3F079FDE1F1366BA0095FE4B /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		3F079FDF1F1366BA0095FE4B /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		3F079FE11F1366C60095FE4B /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3F079FE21F1366C60095FE4B /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3F079FE41F1366CD0095FE4B /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		3F079FE51F1366CD0095FE4B /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		3F079FE71F1366D30095FE4B /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		3F079FE81F1366D30095FE4B /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		3F079FEA1F1366D90095FE4B /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		3F079FEB1F1366D90095FE4B /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		3F079FED1F1370430095FE4B /* RHNavItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RHNavItemModel.h; sourceTree = "<group>"; };
+		3F079FEE1F1370430095FE4B /* RHNavItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RHNavItemModel.m; sourceTree = "<group>"; };
+		3FB61CA91F14989C004F7319 /* SixthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixthViewController.h; sourceTree = "<group>"; };
+		3FB61CAA1F14989C004F7319 /* SixthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixthViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F079FB61F1366740095FE4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F079FB01F1366740095FE4B = {
+			isa = PBXGroup;
+			children = (
+				3F079FBB1F1366740095FE4B /* RHNavController */,
+				3F079FBA1F1366740095FE4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F079FBA1F1366740095FE4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F079FB91F1366740095FE4B /* RHNavController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F079FBB1F1366740095FE4B /* RHNavController */ = {
+			isa = PBXGroup;
+			children = (
+				3F079FD31F1366A80095FE4B /* RHNavController */,
+				3F079FBF1F1366740095FE4B /* AppDelegate.h */,
+				3F079FC01F1366740095FE4B /* AppDelegate.m */,
+				3F079FC21F1366740095FE4B /* ViewController.h */,
+				3F079FC31F1366740095FE4B /* ViewController.m */,
+				3F079FDE1F1366BA0095FE4B /* FirstViewController.h */,
+				3F079FDF1F1366BA0095FE4B /* FirstViewController.m */,
+				3F079FE11F1366C60095FE4B /* SecondViewController.h */,
+				3F079FE21F1366C60095FE4B /* SecondViewController.m */,
+				3F079FE41F1366CD0095FE4B /* ThirdViewController.h */,
+				3F079FE51F1366CD0095FE4B /* ThirdViewController.m */,
+				3F079FE71F1366D30095FE4B /* FourthViewController.h */,
+				3F079FE81F1366D30095FE4B /* FourthViewController.m */,
+				3F079FEA1F1366D90095FE4B /* FifthViewController.h */,
+				3F079FEB1F1366D90095FE4B /* FifthViewController.m */,
+				3FB61CA91F14989C004F7319 /* SixthViewController.h */,
+				3FB61CAA1F14989C004F7319 /* SixthViewController.m */,
+				3F079FC51F1366740095FE4B /* Main.storyboard */,
+				3F079FC81F1366740095FE4B /* Assets.xcassets */,
+				3F079FCA1F1366740095FE4B /* LaunchScreen.storyboard */,
+				3F079FCD1F1366740095FE4B /* Info.plist */,
+				3F079FBC1F1366740095FE4B /* Supporting Files */,
+			);
+			path = RHNavController;
+			sourceTree = "<group>";
+		};
+		3F079FBC1F1366740095FE4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3F079FBD1F1366740095FE4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F079FD31F1366A80095FE4B /* RHNavController */ = {
+			isa = PBXGroup;
+			children = (
+				3F079FD51F1366A80095FE4B /* RHNavController.h */,
+				3F079FD61F1366A80095FE4B /* RHNavController.m */,
+				3F079FD71F1366A80095FE4B /* RHNavItem.h */,
+				3F079FD81F1366A80095FE4B /* RHNavItem.m */,
+				3F079FD91F1366A80095FE4B /* RHNavView.h */,
+				3F079FDA1F1366A80095FE4B /* RHNavView.m */,
+				3F079FED1F1370430095FE4B /* RHNavItemModel.h */,
+				3F079FEE1F1370430095FE4B /* RHNavItemModel.m */,
+			);
+			path = RHNavController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F079FB81F1366740095FE4B /* RHNavController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F079FD01F1366740095FE4B /* Build configuration list for PBXNativeTarget "RHNavController" */;
+			buildPhases = (
+				3F079FB51F1366740095FE4B /* Sources */,
+				3F079FB61F1366740095FE4B /* Frameworks */,
+				3F079FB71F1366740095FE4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RHNavController;
+			productName = RHNavController;
+			productReference = 3F079FB91F1366740095FE4B /* RHNavController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F079FB11F1366740095FE4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Abner_G;
+				TargetAttributes = {
+					3F079FB81F1366740095FE4B = {
+						CreatedOnToolsVersion = 8.3.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3F079FB41F1366740095FE4B /* Build configuration list for PBXProject "RHNavController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F079FB01F1366740095FE4B;
+			productRefGroup = 3F079FBA1F1366740095FE4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F079FB81F1366740095FE4B /* RHNavController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F079FB71F1366740095FE4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F079FCC1F1366740095FE4B /* LaunchScreen.storyboard in Resources */,
+				3F079FC91F1366740095FE4B /* Assets.xcassets in Resources */,
+				3F079FC71F1366740095FE4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F079FB51F1366740095FE4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F079FDC1F1366A80095FE4B /* RHNavItem.m in Sources */,
+				3F079FC41F1366740095FE4B /* ViewController.m in Sources */,
+				3F079FE01F1366BA0095FE4B /* FirstViewController.m in Sources */,
+				3F079FEC1F1366D90095FE4B /* FifthViewController.m in Sources */,
+				3F079FC11F1366740095FE4B /* AppDelegate.m in Sources */,
+				3F079FE31F1366C60095FE4B /* SecondViewController.m in Sources */,
+				3F079FEF1F1370430095FE4B /* RHNavItemModel.m in Sources */,
+				3F079FE61F1366CD0095FE4B /* ThirdViewController.m in Sources */,
+				3F079FE91F1366D30095FE4B /* FourthViewController.m in Sources */,
+				3FB61CAB1F14989C004F7319 /* SixthViewController.m in Sources */,
+				3F079FBE1F1366740095FE4B /* main.m in Sources */,
+				3F079FDD1F1366A80095FE4B /* RHNavView.m in Sources */,
+				3F079FDB1F1366A80095FE4B /* RHNavController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F079FC51F1366740095FE4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F079FC61F1366740095FE4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F079FCA1F1366740095FE4B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F079FCB1F1366740095FE4B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F079FCE1F1366740095FE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3F079FCF1F1366740095FE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F079FD11F1366740095FE4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RHNavController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.RHNavController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3F079FD21F1366740095FE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RHNavController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hehe.RHNavController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F079FB41F1366740095FE4B /* Build configuration list for PBXProject "RHNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F079FCE1F1366740095FE4B /* Debug */,
+				3F079FCF1F1366740095FE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F079FD01F1366740095FE4B /* Build configuration list for PBXNativeTarget "RHNavController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F079FD11F1366740095FE4B /* Debug */,
+				3F079FD21F1366740095FE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F079FB11F1366740095FE4B /* Project object */;
+}
